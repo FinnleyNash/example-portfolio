@@ -1,11 +1,11 @@
 .footer{
     width: 100%;
-    padding: 2rem 0;
+    padding: 3rem 0;
     border-color: rgba(19, 19, 19, 0.8);
 }
 
 .footer-container{
-    min-width: 1140px;
+    max-width: 1140px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -17,7 +17,7 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .location{
@@ -25,7 +25,7 @@
     margin-bottom: 0.6rem;
 }
 
-.loction p{
+.location p{
     line-height: 30px;
 }
 
@@ -53,6 +53,6 @@ p{
 
 @media screen and (max-width: 640px) {
     .footer-container{
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     }
 }
