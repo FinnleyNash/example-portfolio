@@ -3,9 +3,7 @@ import WorkCard from "./WorkCard";
 import WorkCardData from "./WorkCardData";
 
 import React from 'react';
-import pro1 from "../assets/project1.png"
 
-import { NavLink } from 'react-router-dom';
 
 const Work = () => {
   return (
